@@ -5,7 +5,11 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>$title$</title>
-        <link rel="stylesheet" href="/css/default.css" />
+        <style>
+            body { overflow-wrap: anywhere; }
+            dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); column-gap: 0.5em; }
+            dd { margin: 0; }
+        </style>
     </head>
     <body>
         $body$
